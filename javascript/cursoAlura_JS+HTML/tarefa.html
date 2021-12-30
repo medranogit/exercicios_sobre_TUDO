@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+
+
+
+<script>
+    function mostrar(texto){
+        document.write("<br><hr>");
+        document.write("<br>" + texto);
+        document.write("<br><hr><br>");
+    }
+
+    var anoInicial = 1500;
+    var anoAtual = 2020;
+    var anosPassaram = anoAtual - anoInicial;
+    var conta = anosPassaram / 28;
+
+    mostrar("Se passaram " + anosPassaram + " anos. E passaram " + Math.round(conta) + " gerações. <br>" );
+</script>

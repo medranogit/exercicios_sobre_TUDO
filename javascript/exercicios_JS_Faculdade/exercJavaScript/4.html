@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<meta charset="utf-8">
+
+
+aasdadsa<br>
+
+<head>
+
+    <title>Exércicio 4</title>
+    
+    <label for="textoNome">Coloque seu nome!</label>
+    <br>
+    <input id="textoNome">
+    <button id="botao">Aperte</button>
+
+</head>
+ 
+<script>
+
+    var bo = document.querySelector("#botao");
+    bo.addEventListener('click', dialogo, false);
+
+    function dialogo(){
+        var pegar = document.getElementById("textoNome").value;
+        window.alert("O seu nome é " + pegar);
+
+    }
+
+
+</script>
